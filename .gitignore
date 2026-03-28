@@ -1,0 +1,35 @@
+# Sensitive files - NEVER commit these
+.env
+*.key
+*.pem
+*.secret
+credentials.*
+auth-profiles.json
+
+# API keys
+**/api_key*
+**/secret*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Personal / internal docs (not for public repo)
+docs/content-playbook.md
+docs/*-office-hours.md
